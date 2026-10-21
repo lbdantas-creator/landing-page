@@ -1,7 +1,7 @@
 body{
   display: flex;
   flex-direction: column;
-  background-color: #212529;
+  background-color: #181819;
 }
 
 html, body {
@@ -11,21 +11,16 @@ html, body {
 
 .header{
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 30px;
-  background-color: #212529;
-  border-bottom: 2px solid #c8b272;
-  /*tentando fixar o header*/
- /* deu errado, o container n apareceu: position: fixed; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    background-color: #212529;
+    border-bottom: 2px solid #c8b272;
+
+    position: sticky;
     top: 0;
-    left: 0;
-    width: 100%;
-    box-sizing: border-box;
     z-index: 1000;
-.container {
-    padding-top: 5000px;
- */
+    box-sizing: border-box;
 }
 .container {
   display: flex;
@@ -139,7 +134,7 @@ h1{
   padding: 15px 10px 15px 10px;
   border-radius: 20px;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.2);
-  background-color: #212529;
+  background-color: #181819;
   transition: box-shadow 0.3s ease, transform 0.3s ease;
   color: white;
   font-family: cursive;
