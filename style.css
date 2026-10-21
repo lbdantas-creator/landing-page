@@ -16,7 +16,6 @@ html, body {
     padding: 30px;
     background-color: #212529;
     border-bottom: 2px solid #c8b272;
-
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -31,6 +30,7 @@ html, body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   border-bottom: 2px solid #c8b272;
   padding: 100px 30px 100px 30px;
   min-height: 300px;
@@ -237,4 +237,33 @@ a:active {
     color: #c8b272;
     font-size: 22px;
     cursor: pointer;
+}
+
+.containervalis {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("imagens/fundo\ 3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border-bottom: 2px solid #c8b272;
+  padding: 100px 30px 100px 30px;
+  min-height: 300px;
+}
+
+.bottomvalis {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: right;
+  gap: 30px;
+  list-style: none;
+  padding-top: 84px;
+  padding-inline-start: 0;
+  color: #c8b272;
+  font-size: 18px;
+  font-family: cursive;
 }
