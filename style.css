@@ -2,6 +2,7 @@ body{
   display: flex;
   flex-direction: column;
   background-color: #181819;
+  
 }
 
 html, body {
@@ -9,7 +10,7 @@ html, body {
   padding: 0;
 }
 
-.header{
+header{
   display: flex;
     justify-content: space-between;
     align-items: center;
@@ -266,4 +267,90 @@ a:active {
   color: #c8b272;
   font-size: 18px;
   font-family: cursive;
+}
+footer {
+  background-color: #212529;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-footer {
+  display: flex;
+  align-items: center;
+  width: 100px;
+  height: auto;
+  position: absolute;
+  margin-top: -50px;
+}
+.conteudo-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.contato-footer {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  color: white;
+  font-size: 18px;
+  font-family: cursive;
+  padding: 20px 0 20px 10px;
+  gap: 15px;
+}
+.icones-footer {
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.icones-footer img {
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+}
+
+.icones-footer a:hover img {
+    transform: scale(1.15);
+}
+
+.botao-especialista2 { 
+  margin-right: 10px;
+  padding: 20px 24px;
+  border: 1px solid #c8b272;
+  border-radius: 50px;
+  background-color: #222121;
+  color: #ffffff;
+  font-family: cursive;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.botao-especialista2:hover {
+  background-color: transparent;
+  color: #c8b272;
+  transform: scale(1.05);
+}
+
+.linha-footer {
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color: #c8b272;
+    margin: 0;
+}
+
+#direitos {
+  margin-left: auto;
+  color: grey;
+  font-size:  10px;
+  font-family: cursive;
+  padding: 10px;
 }
